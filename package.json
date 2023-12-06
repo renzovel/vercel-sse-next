@@ -1,0 +1,14 @@
+{
+  "name": "vercel-sse-next",
+  "version": "1.0.0",
+  "description": "Aplicacion creada  apartir de la documentacion ofrecida por Vercel para creacion de streamin SSE https://vercel.com/docs/functions/streaming/quickstart",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
