@@ -5,10 +5,10 @@ app.get('/api', (req, res) => {
     res.setHeader("Cache-Control", "no-cache");
     res.setHeader("Connection","keep-alive");
 
-    setInterval(() => {
+    //setInterval(() => {
         const data = { mensaje: 'Hola desde el servidor' };
         res.write(`data: ${JSON.stringify(data)}\n\n`);
-    }, 2000);
+    //}, 2000);
 });
   
 module.exports = app;
