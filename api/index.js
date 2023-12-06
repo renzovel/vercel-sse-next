@@ -6,9 +6,4 @@ app.get('/api', (req, res) => {
     res.end(`Hello! Go to item:----------------`);
   });
   
-  app.get('/api/item/:slug', (req, res) => {
-    const { slug } = req.params;
-    res.end(`Itxxxxxxxxxxem: ${slug}`);
-});
-  
 module.exports = app;
